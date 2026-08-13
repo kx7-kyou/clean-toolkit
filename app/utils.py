@@ -27,3 +27,7 @@ def dedupe(xs):
 def clamp(v, lo, hi):
     """Constrain v to [lo, hi]."""
     return max(lo, min(v, hi))
+
+def word_count(s):
+    """Count whitespace-separated words."""
+    return len(s.split())
